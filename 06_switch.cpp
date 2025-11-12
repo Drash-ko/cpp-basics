@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    // Пример использования оператора switch
     int a;
     cout << "Write a number: ";
     cin >> a;

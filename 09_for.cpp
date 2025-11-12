@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-  // Пример стандартного цикла for
   for (int i = 0; i < 10; i++) {
     cout << "Variable i = " << i << endl;
   }

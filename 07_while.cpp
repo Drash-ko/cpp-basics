@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-  // Пример цикла while
   int a = -5;
 
   while (a < 10) {

@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-  // Пример цикла do-while
   int a = 6;
 
   do {

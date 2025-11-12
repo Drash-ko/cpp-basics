@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-  // пример использования goto
   cout << "one" << endl;
   cout << "two" << endl;
 

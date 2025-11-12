@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    // пример вложенного цикла for
   for (int a = 1; a <= 5; a++) {
     cout << "First loop № " << a << endl;
 
