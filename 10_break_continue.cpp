@@ -15,8 +15,7 @@ int main() {
   cout << "\nExample of continue:" << endl;
   for (int i = 0; i < 10; i++) {
     if (i == 5) {
-      continue; // пропускает оставшуюся часть тела цикла и идет к следующей
-                // итерации
+      continue; // пропускает оставшуюся часть тела цикла и идет к следующей итерации
     }
     cout << "variable i = " << i << endl;
   }
