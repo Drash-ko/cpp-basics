@@ -1,10 +1,9 @@
 #include <iostream>
-#include <ctime>
+#include <ctime>                // библиотека для time
 using namespace std;
 
 int main() {
     srand(time(NULL));          // инициализация генератора случайных чисел
-
     const int SIZE = 10;
     int arr[SIZE];
 
