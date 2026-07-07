@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="330" viewBox="0 0 920 330" role="img" aria-label="C++ basics terminal demo">
+  <rect width="920" height="330" rx="12" fill="#0f172a"/>
+  <rect x="0" y="0" width="920" height="38" rx="12" fill="#1e293b"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="24" y="76" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ clang++ -std=c++17 15_sizeof.cpp -o sizeof-demo</text>
+  <text x="24" y="116" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ ./sizeof-demo</text>
+  <text x="24" y="162" fill="#93c5fd" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">5</text>
+  <text x="24" y="202" fill="#93c5fd" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">33</text>
+  <text x="24" y="262" fill="#94a3b8" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">One file, one concept, one tiny program.</text>
+</svg>
