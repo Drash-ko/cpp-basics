@@ -5,8 +5,8 @@ int main() {
   int a = -5;
 
   while (a < 10) {
-    cout << "Variable a = " << a << endl; // вывод текущего значения a
-    a += 2;                               // увеличиваем a на 2 на каждой итерации
+    cout << "Variable a = " << a << endl;
+    a += 2;
   }
 
   return 0;

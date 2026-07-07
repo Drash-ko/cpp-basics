@@ -19,20 +19,18 @@ using namespace std;
 */
 
 int main() {
-    // Пример инверсии условия (!)
     int a = 5, b = 5;
-    cout << "!(a == b) = " << !(a == b) << "  // 0, потому что a == b" << endl;
+    cout << "!(a == b) = " << !(a == b)
+         << "  // 0 because a == b" << endl;
 
-    // Пример логического И (AND)
     int c = 3, d = 4;
-    cout << "(!(a == b) && (c < d)) = " 
-         << (!(a == b) && (c < d)) 
-         << "  // 0, одно из условий false" << endl;
+    cout << "(!(a == b) && (c < d)) = "
+         << (!(a == b) && (c < d))
+         << "  // 0 because one condition is false" << endl;
 
-    // Пример логического ИЛИ (OR)
-    cout << "(!(a == b) || (c < d)) = " 
-         << (!(a == b) || (c < d)) 
-         << "  // 1, одно из условий true" << endl;
+    cout << "(!(a == b) || (c < d)) = "
+         << (!(a == b) || (c < d))
+         << "  // 1 because one condition is true" << endl;
 
     return 0;
 }

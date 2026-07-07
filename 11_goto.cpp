@@ -5,13 +5,13 @@ int main() {
   cout << "one" << endl;
   cout << "two" << endl;
 
-  goto link; // прыгаем на метку link, пропуская следующий код
+  goto link;
 
-  cout << "three" << endl; // этот вывод пропускается
-  cout << "four" << endl;  // этот тоже
+  cout << "three" << endl;
+  cout << "four" << endl;
 
 link:
-  cout << "five" << endl; // выполнение продолжается здесь
+  cout << "five" << endl;
 
   return 0;
 }

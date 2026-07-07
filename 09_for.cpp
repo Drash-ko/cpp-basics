@@ -6,20 +6,20 @@ int main() {
     cout << "Variable i = " << i << endl;
   }
 
-  // Цикл без инициализации в заголовке
+  // The initialization step can be declared before the loop header.
   int a = 2;
   for (; a < 10; a++) {
     cout << "Variable a = " << a << endl;
   }
 
-  // Цикл без инициализации и шага в заголовке
+  // The update step can also be handled inside the loop body.
   int b = 3;
   for (; b < 10;) {
     cout << "Variable b = " << b << endl;
     b++;
   }
 
-  // Пример бесконечного цикла (закомментирован)
+  // Infinite loop pattern, disabled for this runnable example.
   /*
   int d = 4;
   for (;;) {
@@ -28,7 +28,7 @@ int main() {
   }
   */
 
-  // Цикл с двумя переменными
+  // A for loop can update more than one variable.
   int g = 0, j = 0;
   for (; g != 10 && j != -5; g++, j--) {
     cout << "Variable g = " << g << ", Variable j = " << j << endl;
